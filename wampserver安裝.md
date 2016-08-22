@@ -2,6 +2,7 @@
 http://192.168.152.134/
 
 電腦作業系統是64位元的選擇Wampserver2.4-x64.exe
+
 32位元選擇Wampserver2.4-x86.exe
 
 ##安裝步驟
