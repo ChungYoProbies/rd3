@@ -11,3 +11,5 @@ http://192.168.152.134/
 2.安裝完後，於電腦桌面右下方點擊wampserver icon，將php.ini設定裡的php_curl.dll權限打開，接著再點擊Restart All Services
 
 示意圖(http://192.168.152.134/wampserver.jpg)
+
+3.試寫測試程式，curl http://192.168.152.134/transfer/presenter.php/test?username=phili，確認有收到 '{"result":false,"data":{"Code":"4444","Message":"API is not open"}}' 此訊息，若無收到請反映。
