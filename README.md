@@ -60,7 +60,3 @@ https://docs.google.com/document/d/1jQ2cwjREPU_INb0Dz1m2l37gep-Curq8C7dXLTAuyIo/
 ###作答網址
 
 https://docs.google.com/forms/d/1Hi4nHTfkwz77U05L7UOWiVvzwX8B_jXcQKW0N-8Fd_0/edit
-
-###已通過名單
-
-https://docs.google.com/document/d/1jQ2cwjREPU_INb0Dz1m2l37gep-Curq8C7dXLTAuyIo/edit
