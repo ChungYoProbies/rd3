@@ -42,3 +42,25 @@ https://docs.google.com/forms/d/1-MNJ9Y7WmW5oW0_NFXTXbgsJx52n9maYfqdAWc_j2Q8/edi
 ###已通過名單
 
 https://docs.google.com/document/d/1jQ2cwjREPU_INb0Dz1m2l37gep-Curq8C7dXLTAuyIo/edit
+
+##題目2 踩地雷地圖反驗證程式
+沿用第一題定義的參數和格式，解析帶入的字串，是否符合踩地雷的規則，若不符則要詳細說明原因。
+
+###範例
+輸入範例
+
+`https://xxx.xxx.xxx/xxx.php?map=1110000N1M21100N112M100N0012321N1101MM1NM101221`
+
+輸出格式
+
+符合。
+
+不符合，因為XXOO。
+
+###作答網址
+
+https://docs.google.com/forms/d/1Hi4nHTfkwz77U05L7UOWiVvzwX8B_jXcQKW0N-8Fd_0/edit
+
+###已通過名單
+
+https://docs.google.com/document/d/1jQ2cwjREPU_INb0Dz1m2l37gep-Curq8C7dXLTAuyIo/edit
