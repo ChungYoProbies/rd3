@@ -12,4 +12,4 @@ http://192.168.152.134/
 
 示意圖(http://192.168.152.134/wampserver.jpg)
 
-3.試寫測試程式，curl http://192.168.152.134/transfer/presenter.php/test?username=phili，確認有收到 '{"result":false,"data":{"Code":"4444","Message":"API is not open"}}' 此訊息，若無收到請反映。
+3.試寫測試程式，curl 'http://192.168.152.134/transfer/presenter.php/test?username=phili' ，確認有收到 '{"result":false,"data":{"Code":"4444","Message":"API is not open"}}' 此訊息，若無收到請反映。
