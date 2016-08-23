@@ -10,3 +10,33 @@ $aCheckMap = array(
  '4M4M211111N24MM22M33MN1MM533M3MMN235MM2234MN2M4M433M31N3M65M5MM41N3MMMMMMM4MNM6M5M55M42NMM4333M3M1N3M3M2M2214',
  '2M4M4MM311NM4MMM7M5M3NM324MMM5MMN22124MM56MN1M22M44MMMN123M33M34MN01M3M43333N01122MM3MMN0011334M4MN222M2M3221NMM2122M100'
 );
+
+$aUrl = array(
+
+'Ricky' => 'https://true-coolmancz.c9users.io/bomb/test4.php',
+'Eric_Lee' => 'https://lab-eric3998.c9users.io/Landmine/Resolve.php',
+'Cobra_Chen' => 'https://chungyo-php-cobrachen7762.c9users.io/ChallengeProblem/CreateBombo/CheckBomb.php',
+'Nozomi' => 'https://lab-nozomi-2710.c9users.io/SecondStage/Minesweeper/Minesweeper_get.php',
+'Emma_Lin' => 'https://booking-emma02.c9users.io/Map/testMap.php',
+'Ryan_Wang' => 'https://lab-po99al43.c9users.io/rd3/test4.php',
+'Lid_Chen' => 'https://testweb-lid-chen.c9users.io/Minesweeper/Minesweeper3.php',
+'Betsy_Liu' => 'https://lab1-betsy-liu.c9users.io/Minesweeper/MinesweeperVer.php',
+'Eddie' => 'https://eddie-eddie-lee.c9users.io/rd3/Verify.php',
+'Bob_Chen' => 'https://lab-bob-chen.c9users.io/stage2/week4/Landmine/testMap.php',
+'Sakamoto_Lee' => 'https://leb-firefly0329.c9users.io/Minesweeper/check.php',
+'Leif_Chen' => 'https://test20160620-leif-chen.c9users.io/_Minesweeper/MinesweeperCheck.php',
+'阿波' => 'https://missing-meng-zhu.c9users.io/rd3/boom5.php',
+'Rain_wang' => 'https://lab-rain-wang.c9users.io/hitbomb/text3.php',
+'Steve_Hong' => 'https://lab-stevehong0615.c9users.io/Minesweeper/verification.php',
+'Sera_Chen' => 'https://lab-sera-chen.c9users.io/rd3/CheckLandmine.php',
+'Boris_Yan' => 'https://yanlearn-boris-yan.c9users.io/gitlab/%E7%A0%94%E4%B8%89/%E5%9C%B0%E5%9C%96%E7%94%A2%E7%94%9F/checkmap.php',
+'Shupa_Tsai' => 'https://day2-shupa-tsai.c9users.io/RD3/Home3.php',
+'Anny_ke' => 'https://payment-annyke.c9users.io/Minesweeper/verification.php',
+'David' => 'https://elective-system-cool72456.c9users.io/Minesweeper/check.php',
+'Adam_Nian' => 'https://azqooo-azqoo19224.c9users.io/ReadSoccerData/Minesweeper.php',
+'Ian_Tsai' => 'https://plc-kmygrock666.c9users.io/Rd3/rd34.php',
+'Demi' => 'https://challenge-demichuang.c9users.io/MineSweeper/MineSweeperCheck.php',
+'kay_yu' => 'https://rd1-memcache-kay-yu.c9users.io/rd3/test_rd3.php',
+'Leona' => 'https://lab1-srt459vn.c9users.io/R3_HW/bow2Check.php'
+
+);
