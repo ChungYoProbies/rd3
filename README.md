@@ -92,6 +92,8 @@ ex.
 
 http://bm.vir999.com/app/WebService/documentation.php?lang=zh-tw
 
+##website 統一使 用EsBall
+
 ##uppername 統一使用 dnnatest1
 
 ##keyB
@@ -114,3 +116,5 @@ PlayGame	YJ97c0d2
 BetRecord	Y0A3027	
 
 BetRecordByModifiedDate3	 Y0A3027
+
+
