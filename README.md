@@ -90,33 +90,6 @@ ex.
 
 ##題目4.製作遊戲平台
 
-http://bm.vir999.com/app/WebService/documentation.php?lang=zh-tw
-
-##website 統一使 用EsBall
-
-##uppername 統一使用 dnnatest1
-
-##keyB
-CreateMember　－　0XqEuzqsPx
-
-Login2　－　9L7Bg4	
-
-Logout　－　eLI8fHB	
-
-CheckUsrBalance　－　Uwq9Q8HJ0Y	
-
-Transfer　－　7rRGfi1b	
-
-CheckTransfer　－　7rw9M	
-
-TransferRecord　－　7rw9M	
-
-PlayGame　－　YJ97c0d2	
-
-BetRecord　－　Y0A3027	
-
-BetRecordByModifiedDate3　－　Y0A3027
-
 
 ##項目1
 1.建立帳號
