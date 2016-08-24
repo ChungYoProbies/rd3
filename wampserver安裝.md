@@ -1,6 +1,8 @@
 ##軟體下載
 http://192.168.152.134/
 
+https://drive.google.com/folderview?id=0B67K1u5cS53_WkNGSWNmek9LQlE&usp=sharing
+
 電腦作業系統是64位元的選擇Wampserver2.4-x64.exe
 
 32位元選擇Wampserver2.4-x86.exe
