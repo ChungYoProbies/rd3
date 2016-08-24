@@ -76,5 +76,6 @@ A平台(你)，使用B平台(其他人)出入款API，讓會員可以將他在B�
 
 ###繳交
 繳交網址 - http://192.168.152.134/upload.php
+
 檔名格式 - 暱稱.jpg (jpeg,jpg) (ex. phili.jpg)
 
