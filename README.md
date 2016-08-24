@@ -118,3 +118,8 @@ BetRecord	Y0A3027
 BetRecordByModifiedDate3	 Y0A3027
 
 
+##項目1
+1.建立帳號
+2.執行登入
+3.存入額度
+4.進入遊戲(機率遊戲任何一款)
