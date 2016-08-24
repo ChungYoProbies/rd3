@@ -87,3 +87,78 @@ ex.
 
 檔名格式 - 暱稱.jpg (jpeg,jpg) (ex. phili.jpg)
 
+
+##題目4.轉帳額度檢查
+沿用題目3思維，試寫出檢查程式
+
+###繳交
+繳交網址 - http://192.168.152.134/upload.php
+
+1.把檢查結果存成txt檔上傳
+
+內容格式 - 平台A轉XX元到平台B，轉帳序號XXX，因為XXX，造成XXX
+
+###api
+url - http://192.168.152.134/transfer/presenter.php/api名稱?參數=值
+
+url - http://192.168.153.212/transfer/presenter.php/api名稱?參數=值
+
+ex. 
+
+request - http://192.168.152.134/transfer/presenter.php/getBalance?username=phili
+
+reponse - {"result":true,"data":{"Balance":"97630.0000"}}
+
+1.新增帳號
+api名稱 - addUser
+
+參數1 - username(帳號)
+
+2.重置帳號資料
+api名稱 - resetData
+
+參數1 - username(帳號)
+
+##A平台
+1.取得餘額
+
+api名稱 - getBalance
+
+參數1 - (string)username(帳號)
+
+2.轉帳
+api名稱 - UpdateBalance
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
+
+參數3 - (string)type(轉帳型態) (IN,OUT)
+
+參數4 - (int)amount(轉帳金額)
+
+
+##B平台
+2.取得餘額
+
+api名稱 - getUserBalance
+
+參數1 - (string)username(帳號)
+
+3.轉帳
+api名稱 - transfer
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
+
+參數3 - (string)type(轉帳型態) (IN,OUT)
+
+參數4 - (int)amount(轉帳金額)
+
+4.檢查轉帳狀態
+api名稱 - checkTransfer
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
