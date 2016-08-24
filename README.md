@@ -126,3 +126,6 @@ BetRecordByModifiedDate3　－　Y0A3027
 3.存入額度
 
 4.進入遊戲(機率遊戲任何一款)
+
+##完成
+https://docs.google.com/spreadsheets/d/1GPgdwF-bsSZEc-XFP4gNVJZqWrOzYppXE1gIrkBImSg/edit?usp=sharing
