@@ -68,6 +68,7 @@ https://docs.google.com/forms/d/1Hi4nHTfkwz77U05L7UOWiVvzwX8B_jXcQKW0N-8Fd_0/edi
 
 ###情境
 A平台(你)，使用B平台(其他人)出入款API，讓會員可以將他在B平台的錢轉入A平台的電子荷包，當然也可以從A平台轉入到B平台。
+
 註.角色定位以A平台為角度去思考
 
 ###狀況
