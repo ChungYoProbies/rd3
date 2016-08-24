@@ -127,7 +127,7 @@ api名稱 - getBalance
 參數1 - (string)username(帳號)
 
 2.轉帳
-api名稱 - UpdateBalance
+api名稱 - updateBalance
 
 參數1 - (string)username(帳號)
 
