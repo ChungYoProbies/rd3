@@ -127,6 +127,7 @@ https://goo.gl/forms/rQfUhBy9H1SdhTdx2
 1.一入一出，或一出一入
 
 (A扣款B入款、A入款B扣款、B扣款A入款、B入款A扣款)
+
 2.curl使用上請設置 timeout 10秒
 
 3.禁止任何for迴圈行為，違者.....
