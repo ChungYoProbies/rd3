@@ -123,6 +123,8 @@ https://goo.gl/forms/rQfUhBy9H1SdhTdx2
 
 結果 - XXX
 
+註.A平台與B平台的轉帳API，兩個回應都"確定"是真的成功的情況，可以不用列出
+
 ###呼叫API規則
 1.一入一出，或一出一入
 
@@ -130,7 +132,9 @@ https://goo.gl/forms/rQfUhBy9H1SdhTdx2
 
 2.curl使用上請設置 timeout 10秒
 
-3.禁止任何for迴圈行為，違者.....
+3.一個流程所使用的轉帳序號需一樣
+
+4.禁止任何for迴圈行為，違者.....
 
 ###要點
 1.適時的做log紀錄，或出入款記錄
