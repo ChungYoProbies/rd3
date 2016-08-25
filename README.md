@@ -102,3 +102,102 @@ ex.
 
 ##完成
 https://docs.google.com/spreadsheets/d/1GPgdwF-bsSZEc-XFP4gNVJZqWrOzYppXE1gIrkBImSg/edit?usp=sharing
+
+
+##題目5.轉帳額度檢查
+沿用題目3思維，試著使用下列API，找出額度不符合的狀況
+
+###繳交
+https://goo.gl/forms/rQfUhBy9H1SdhTdx2
+
+####內容格式
+帳號 - XXX
+
+動做 - 從哪轉到哪
+
+轉帳序號 - XXX
+
+金額 - XXX
+
+發生狀況 - XXX
+
+結果 - XXX
+
+###呼叫API規則
+1.一入一出，或一出一入
+
+(A扣款B入款、A入款B扣款、B扣款A入款、B入款A扣款)
+2.curl使用上請設置 timeout 10秒
+
+3.禁止任何for迴圈行為，違者.....
+
+###要點
+1.適時的做log紀錄，或出入款記錄
+
+
+##api
+url - http://bm-dev.vir888.net/app/presenter.php/api名稱?參數=值
+
+ex. 
+request - http://bm-dev.vir888.net/app/presenter.php/getBalance?username=phili
+
+reponse - {"result":true,"data":{"Balance":"97630.0000"}}
+
+##共用
+1.新增帳號
+
+api名稱 - addUser
+
+參數1 - username(帳號)
+
+2.重置帳號資料
+
+api名稱 - resetData
+
+參數1 - username(帳號)
+
+###A平台
+1.取得餘額
+
+api名稱 - getBalance
+
+參數1 - (string)username(帳號)
+
+2.轉帳
+
+api名稱 - updateBalance
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
+
+參數3 - (string)type(轉帳型態) (IN,OUT)
+
+參數4 - (int)amount(轉帳金額)
+
+###B平台
+1.取得餘額
+
+api名稱 - getUserBalance
+
+參數1 - (string)username(帳號)
+
+2.轉帳
+
+api名稱 - transfer
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
+
+參數3 - (string)type(轉帳型態) (IN,OUT)
+
+參數4 - (int)amount(轉帳金額)
+
+3.檢查轉帳狀態
+
+api名稱 - checkTransfer
+
+參數1 - (string)username(帳號)
+
+參數2 - (int)transid(轉帳序號)
