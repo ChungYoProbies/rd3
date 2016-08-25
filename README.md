@@ -206,3 +206,16 @@ api名稱 - checkTransfer
 參數1 - (string)username(帳號)
 
 參數2 - (int)transid(轉帳序號)
+
+
+##題目6.api與文件製作
+
+試著設計以下api與文件
+
+1.建立帳號
+
+2.取得餘額
+
+3.轉帳
+
+4.轉帳確認
